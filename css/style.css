@@ -52,7 +52,7 @@ header {
     padding: 0 10px;
 }
 
-header .container .nav-top .login li, footer .container .nav-bottom .login li{
+header .container .nav-top .login li{
     border-radius: 20px;
     background-color: white;
     color: black;
@@ -179,9 +179,10 @@ main .big-img .button {
 /* footer  */
 footer {
     background-color: rgb(35, 39, 42);
+    padding: 50px 0;
 }
 
-footer .container ul {
+footer .all-footer ul{
     width: 15%;
     color: white;
 }
@@ -201,18 +202,26 @@ ul * {
 
 
 
-footer .container ul li:first-child {
+footer .all-footer ul li:first-child {
     color: royalblue;
     font-weight: bold;
 }
 
-footer .container:nth-last-child(2) {
+footer .all-footer:nth-last-child(2) {
     border-bottom:royalblue 1px solid;
     padding: 50px 0;
 }
 
 .nav-bottom {
     height: 54px;   
+    margin-top: 20px;
+}
+.nav-bottom .login li {
+    border-radius: 20px;
+    background-color: royalblue;
+    color: white;
+    text-align: right;
+    padding: 10px 15px;
 }
 
 
