@@ -36,10 +36,18 @@ header {
     padding: 10px;
 
 }
+
 .nav-top ul li {
     display: inline-block;
     color: white;
     padding: 0 10px;
+}
+
+.container .nav-top .login li {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+
 }
 
 .nav-top .logo, .nav-top .login {
@@ -50,6 +58,7 @@ header {
 }
 
 
+
 .jumbo-content {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -58,5 +67,29 @@ header {
     border: 1px black solid;
     text-align: center;
     color: white;
-
 }
+
+.jumbo-content * {
+    padding: 10px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+/* main  */
+.img-container {
+    width: 60%;
+}
+
+.img-text-container {
+    width: 40%;
+}
+
+.img-container img {
+    width: 550px;
+}
+
+
