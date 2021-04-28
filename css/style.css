@@ -100,7 +100,6 @@ header .container .nav-top .login li{
     background-color: white;
     color: black;
     padding: 10px 20px;
-    margin: 0 8px;
 }
 .jumbo-content .buttons-container .button:last-child {
     color: white;
@@ -109,7 +108,6 @@ header .container .nav-top .login li{
 
 .button:first-child:before {
     content: "\2193  ";
-};
 }
 /* end header  */
 
@@ -169,10 +167,10 @@ main .container {
 
 }
 
-main .big-img .button {
+
+main .big-img .inutile .button {
     background-color: cornflowerblue;
     color: white;
-    margin: 0 auto;
 }
 /* end main  */
 
