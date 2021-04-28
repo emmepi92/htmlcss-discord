@@ -5,7 +5,7 @@
     list-style-type: none;
 }
 
-clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -101,3 +101,27 @@ header {
     font-size: 20px;
 }
 
+main .container {
+    padding: 120px 0;
+}
+
+.rel {
+    position: relative;
+    height: 800px;
+}
+
+.content-abs {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.content-abs h2 {
+    font-size: 40px;
+}
+
+.content-abs p {
+    font-size: 20px;
+}
