@@ -93,11 +93,11 @@ header {
     width: 550px;
 }
 
-.img-text h2 {
+.img-text h2, .content-abs h2 {
     font-size: 40px;
 }
 
-.img-text p {
+.img-text p, .content-abs p {
     font-size: 20px;
 }
 
@@ -118,10 +118,26 @@ main .container {
     text-align: center;
 }
 
-.content-abs h2 {
-    font-size: 40px;
+#stella {
+    background-image: url(../img/stars.svg);
 }
 
-.content-abs p {
-    font-size: 20px;
+/* footer  */
+footer {
+    background-color: rgb(35, 39, 42);
+    height: 500px;
+    width: 100%;
 }
+
+footer ul, footer div {
+    float:left
+}
+
+footer ul {
+    width: 15%;
+}
+
+footer div {
+    width: 40%;
+}
+
