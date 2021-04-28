@@ -136,9 +136,11 @@ main .container {
     padding: 120px 0;
 }
 
+/* big image  */
 .rel {
     position: relative;
-    height: 800px;
+    height: 900px;
+
 }
 
 .content-abs {
@@ -151,6 +153,19 @@ main .container {
 
 #stella {
     background-image: url(../img/stars.svg);
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+main .container .content-abs .button {
+    background-color: cornflowerblue;
+    border: none;
 }
 /* end main  */
 
