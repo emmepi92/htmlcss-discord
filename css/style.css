@@ -15,6 +15,10 @@
     float: left;
 }
 
+.fr {
+    float: right;
+}
+
 header {
     background-image: url(../img/jumbo.png);
     height: 500px;
@@ -32,7 +36,6 @@ header {
     height: 54px;
     border: 1px black solid;
     line-height: 34px;
-    text-align: center;
     padding: 10px;
 
 }
@@ -43,7 +46,7 @@ header {
     padding: 0 10px;
 }
 
-.container .nav-top .login li {
+.container .nav-top .login li, .nav-bottom .login li{
     border-radius: 10px;
     background-color: white;
     color: black;
@@ -55,6 +58,15 @@ header {
 }
 .nav-top .menu {
     width: 70%;
+    text-align: center;
+}
+
+.nav-top .logo {
+    text-align: left;
+}
+
+.nav-top .login {
+    text-align: right;
 }
 
 
@@ -125,19 +137,25 @@ main .container {
 /* footer  */
 footer {
     background-color: rgb(35, 39, 42);
-    height: 500px;
-    width: 100%;
+
 }
 
-footer ul, footer div {
-    float:left
-}
-
-footer ul {
+footer .container ul {
     width: 15%;
+    color: white;
 }
 
-footer div {
+.footer-main {
     width: 40%;
+    color: royalblue;
 }
+footer .container ul li:first-child {
+    color: royalblue;
+}
+
+footer .container {
+    border-bottom:royalblue 1px solid;
+}
+
+
 
