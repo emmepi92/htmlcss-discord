@@ -5,6 +5,11 @@
     list-style-type: none;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* utility classes  */
 .clearfix::after {
     content: "";
     display: table;
@@ -18,7 +23,9 @@
 .fr {
     float: right;
 }
+/* end utility  */
 
+/* header  */
 header {
     background-image: url(../img/jumbo.png);
     height: 500px;
@@ -34,7 +41,6 @@ header {
 
 .nav-top {
     height: 54px;
-    border: 1px black solid;
     line-height: 34px;
     padding: 10px;
 
@@ -46,8 +52,8 @@ header {
     padding: 0 10px;
 }
 
-.container .nav-top .login li, .nav-bottom .login li{
-    border-radius: 10px;
+header .container .nav-top .login li, footer .container .nav-bottom .login li{
+    border-radius: 20px;
     background-color: white;
     color: black;
 
@@ -56,6 +62,7 @@ header {
 .nav-top .logo, .nav-top .login {
     width: 15%;
 }
+
 .nav-top .menu {
     width: 70%;
     text-align: center;
@@ -69,14 +76,12 @@ header {
     text-align: right;
 }
 
-
-
+ /* img text inside header  */
 .jumbo-content {
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left:50%;
-    border: 1px black solid;
     text-align: center;
     color: white;
 }
@@ -85,11 +90,25 @@ header {
     padding: 10px;
 }
 
+.jumbo-content h1 {
+    font-size: 45px;
+}
+
 .button {
     display: inline-block;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 8px;
 }
+.button:last-child {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+/* end header  */
 
 /* main  */
 .img-container {
@@ -133,6 +152,7 @@ main .container {
 #stella {
     background-image: url(../img/stars.svg);
 }
+/* end main  */
 
 /* footer  */
 footer {
