@@ -140,16 +140,9 @@ main .container {
     padding: 120px 0;
 }
 
-main .bg-img:nth-child(2), main .bg-img:nth-child(6) {
-    background-image: url(../img/wave.svg);
-    background-color: white;
-    height: 200px;
-}
-
-main .bg-img:nth-child(4) {
-    background-image: url(../img/wave.svg);
-    background-color: lightskyblue;
-    height: 200px;
+ /* prova per capire come funziona  */
+.wave-img .wave-1hkxOo path {
+    fill: #f5f5f5;
 }
 
 /* big image MAIN  */
