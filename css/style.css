@@ -23,20 +23,20 @@ body {
 .fr {
     float: right;
 }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
 /* end utility  */
 
-/* header  */
+/* HEADER  */
 header {
     background-image: url(../img/jumbo.png);
     height: 500px;
     background-position: center;
     background-size: cover;
     position: relative;
-}
-
-.container {
-    width: 1000px;
-    margin: 0 auto;
 }
 
 .nav-top {
@@ -76,7 +76,7 @@ header .container .nav-top .login li{
     text-align: right;
 }
 
- /* img text inside header  */
+ /* jumbo HEADER */
 .jumbo-content {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -110,9 +110,9 @@ header .container .nav-top .login li{
 .button:first-child:before {
     content: "\2193  ";
 }
-/* end header  */
+/* end HEADER  */
 
-/* main  */
+/* MAIN  */
 .img-container {
     width: 60%;
 }
@@ -153,7 +153,7 @@ main .bg-img:nth-child(4) {
 }
 
 
-/* big image  */
+/* big image MAIN  */
 .big-img *{
     text-align: center;
 }
@@ -184,14 +184,13 @@ main .bg-img:nth-child(4) {
 
 }
 
-
 main .big-img .inutile .button {
     background-color: royalblue;
     color: white;
 }
-/* end main  */
+/* end MAIN  */
 
-/* footer  */
+/* FOOTER  */
 footer {
     background-color: rgb(35, 39, 42);
     padding: 50px 0;
@@ -215,8 +214,6 @@ ul * {
     width: 30px;
 }
 
-
-
 footer .all-footer ul li:first-child {
     color: royalblue;
     font-weight: bold;
@@ -227,10 +224,12 @@ footer .all-footer:nth-last-child(2) {
     padding: 50px 0;
 }
 
+ /* nav FOOTER  */
 .nav-bottom {
     height: 54px;   
     margin-top: 20px;
 }
+
 .nav-bottom .login li {
     border-radius: 20px;
     background-color: royalblue;
