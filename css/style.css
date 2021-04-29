@@ -28,6 +28,15 @@ body {
     width: 1000px;
     margin: 0 auto;
 }
+
+.button {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
 /* end utility  */
 
 /* HEADER  */
@@ -56,7 +65,6 @@ header .container .nav-top .login li{
     border-radius: 20px;
     background-color: white;
     color: black;
-
 }
 
 .nav-top .logo, .nav-top .login {
@@ -94,14 +102,6 @@ header .container .nav-top .login li{
     font-size: 45px;
 }
 
-.button {
-    display: inline-block;
-    border-radius: 20px;
-    background-color: white;
-    color: black;
-    padding: 10px 20px;
-    margin: 0 10px;
-}
 .jumbo-content .buttons-container .button:last-child {
     color: white;
     background-color: black;
@@ -152,7 +152,6 @@ main .bg-img:nth-child(4) {
     height: 200px;
 }
 
-
 /* big image MAIN  */
 .big-img *{
     text-align: center;
@@ -181,7 +180,6 @@ main .bg-img:nth-child(4) {
     margin: 0 auto 30px;
     font-weight: bold;
     font-size: 25px;
-
 }
 
 main .big-img .inutile .button {
@@ -237,8 +235,3 @@ footer .all-footer:nth-last-child(2) {
     text-align: right;
     padding: 10px 15px;
 }
-
-
-
-
-
